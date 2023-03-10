@@ -1,5 +1,6 @@
 .form {
-    width: 320px;
+    max-width: 320px;
+    margin-bottom: 30px;
 }
   
 .label {
