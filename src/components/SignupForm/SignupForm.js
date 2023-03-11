@@ -20,7 +20,7 @@ export default function SignupForm() {
     };
 
     return (
-        <form className={styles.form} autoComplete="off">
+        <form className={styles.container} autoComplete="off">
             <label className={styles.label}>
                 <span>Пошта</span>
                 <input type="email" name="email" onChange={handleChange} value={email} />
