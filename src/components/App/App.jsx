@@ -3,6 +3,7 @@ import styles from './App.module.css';
 
 import colorPickerOptions from '../Data/ColorPicker.json';
 
+// import AppBar from 'components/AppBar';
 import SignupForm from 'components/SignupForm';
 import ColorPicker from 'components/ColorPicker';
 
@@ -11,6 +12,35 @@ export default function App() {
     <div className={styles.container}>
       <SignupForm />
       <ColorPicker options={colorPickerOptions} />
+
+
+
+      {/* <AppBar /> */}
+      
+      {/* <Switch> */}
+        
+        
+
+        {/* <Route path="/signup">
+          <SignupForm />
+        </Route> */}
+
+        {/* <Route path="/colorpicker">
+          <ColorPicker options={colorPickerOptions} />
+        </Route> */}
+
+        {/* <Route path="/counter">
+          <Counter />
+        </Route> */}
+
+        {/* <Route path="/clock">
+          <Clock />
+        </Route> */}
+
+        {/* <Route path="/pokemon">
+          <PokemonView />
+        </Route> */}
+      {/* </Switch> */}
       
     </div>
   );
