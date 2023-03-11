@@ -12,9 +12,11 @@ export default function ColorPicker({ options }) {
 
     return (
         <div className={styles.container}>
+            
             <h2 className={styles.title}>Color Picker</h2>
-            <p>Вибраний колір: {label}</p>
-            <div>
+            <p className={styles.p}>Вибраний колір: {label}</p>
+            
+            <div className={styles.boxBtn}>
                 {options.map(({ label, color }, index) => (
                     <button 
                         key={label}

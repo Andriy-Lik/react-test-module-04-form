@@ -6,13 +6,14 @@ import colorPickerOptions from '../Data/ColorPicker.json';
 // import AppBar from 'components/AppBar';
 import SignupForm from 'components/SignupForm';
 import ColorPicker from 'components/ColorPicker';
+import Counter from 'components/Counter';
 
 export default function App() {
   return (
     <div className={styles.container}>
       <SignupForm />
       <ColorPicker options={colorPickerOptions} />
-
+      <Counter />
 
 
       {/* <AppBar /> */}
