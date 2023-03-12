@@ -7,7 +7,7 @@ export default function Provider({ children }) {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
 
   const onLogIn = () => {
-    setUser({ name: 'Манго', avatar });
+    setUser({ name: 'Андрій', avatar });
     setIsLoggedIn(true);
   };
 

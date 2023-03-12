@@ -17,7 +17,7 @@ const Navigation = () => (
       className={styles.link}
       activeClassName={styles.activeLink}
     >
-      Колорпикер
+      Колорпікер
     </NavLink>
 
     <NavLink
@@ -25,7 +25,7 @@ const Navigation = () => (
       className={styles.link}
       activeClassName={styles.activeLink}
     >
-      Счётчик
+      Лічильник
     </NavLink>
 
     <NavLink
@@ -33,16 +33,16 @@ const Navigation = () => (
       className={styles.link}
       activeClassName={styles.activeLink}
     >
-      Часы
+      Годинник
     </NavLink>
 
-    <NavLink
+    {/* <NavLink
       to="/pokemon"
       className={styles.link}
       activeClassName={styles.activeLink}
     >
       Покемоны
-    </NavLink>
+    </NavLink> */}
   </nav>
 );
 
