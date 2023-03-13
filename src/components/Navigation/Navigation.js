@@ -36,13 +36,13 @@ const Navigation = () => (
       Годинник
     </NavLink>
 
-    {/* <NavLink
+    <NavLink
       to="/pokemon"
       className={styles.link}
       activeClassName={styles.activeLink}
     >
       Покемоны
-    </NavLink> */}
+    </NavLink>
   </nav>
 );
 

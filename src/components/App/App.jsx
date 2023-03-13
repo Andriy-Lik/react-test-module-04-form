@@ -8,6 +8,7 @@ import SignupForm from 'components/SignupForm';
 import ColorPicker from 'components/ColorPicker';
 import Counter from 'components/Counter';
 import Clock from 'components/Clock';
+import PokemonApp from 'components/Pokemon';
 
 
 export default function App() {
@@ -33,9 +34,9 @@ export default function App() {
           <Clock />
         </Route>
 
-        {/* <Route path="/pokemon">
-          <PokemonView />
-        </Route> */}
+        <Route path="/pokemon">
+          <PokemonApp />
+        </Route>
       </Switch>
       
     </div>
